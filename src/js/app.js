@@ -38,19 +38,19 @@ function render(variables = {}) {
   let twitter =
     variables.twitter !== null
       ? variables.twitter
-      : "https://twitter.com/4geeksacademy";
+      : "4geeksacademy";
   let github =
     variables.github !== null
       ? variables.github
-      : "https://github.com/4geeksacademy";
+      : "4geeksacademy";
   let linkedin =
     variables.linkedin !== null
       ? variables.linkedin
-      : "https://www.linkedin.com/school/4geeksacademy/";
+      : "4geeksacademy/";
   let instagram =
     variables.instagram !== null
       ? variables.instagram
-      : "https://www.instagram.com/4geeksacademy";
+      : "4geeksacademy";
   let role = variables.role !== null ? variables.role : "Web Developer";
   let city = variables.city !== null ? variables.city : "Miami";
   let country = variables.country !== null ? variables.country : "USA";
